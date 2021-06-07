@@ -1,0 +1,17 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+//Custom Styles here
+//Only <article> elements with class="photocard" will be modified
+.photocard {
+    width: 25em;
+    height: 14em;
+    margin: 0.75em;
+    padding: 0;
+    text-decoration: underline;
+    float: left;
+    overflow: hidden;
+}
+
+.photocard-container {
+    height: 100%;
+    overflow: hidden;
+}
