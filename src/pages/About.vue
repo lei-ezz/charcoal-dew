@@ -1,6 +1,6 @@
 <template>
   <div class="text-center p-0 m-0 container-fluid">
-    <Navbar />
+    <Sidebar />
     <div class="jumbotron m-0 jumbotron-fluid">
       <div class="container">
         <h2 class="display-4">This is an About Page</h2>
@@ -11,12 +11,12 @@
 
 <script lang="ts">
 import { Vue, Component } from "@/utils/vue-imports";
-import Navbar from "@/components/Navbar.vue";
+import Sidebar from "@/components/Sidebar.vue";
 
 @Component({
   name: "About",
   components: {
-    Navbar,
+    Sidebar,
   },
 })
 export default class About extends Vue {}

@@ -1,17 +1,20 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 //Custom Styles here
-//Only <article> elements with class="photocard" will be modified
-.photocard {
-    width: 25em;
-    height: 14em;
-    margin: 0.75em;
-    padding: 0;
-    text-decoration: underline;
-    float: left;
-    overflow: hidden;
+* {
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
-.photocard-container {
+html,
+body {
     height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
+    -ms-overflow-style: none;
+    background-color: black;
 }
